@@ -9,7 +9,13 @@ body {
     margin-right: auto;
     width: 20%;
 }
-.menu {
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+/*.menu {
   width: 50%;
   margin: 0 auto;
 }
@@ -26,7 +32,7 @@ a {
   margin: 0;
   text-decoration: none;
   color: #ffffff;
-}
+}*/
 
 .two:hover ~ hr {
   margin-left: 25%;
@@ -50,20 +56,22 @@ hr {
 }
 
 .photos{
-	
+
 	margin: 5%;
 }
 .photo{
-	
-	width: 27%;
-  	height: auto;
-	
+
+	width: 334px;
+  height: 473px;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 #ph2{
+margin-top: 5%;
 float: right;
 }
 #ph3{
-margin-top: 15%;
+margin-top: 5%;
 margin-left: 5%;
 float: left;
 }
@@ -71,7 +79,7 @@ float: left;
 #ph1{
 
  	content:url("4.png");
- 	background-color: white;
+
 }
 #ph2{
 	content:url('3.png');
@@ -82,7 +90,7 @@ float: left;
 
 #ph1:hover{
  	content:url('t1.png');
- 	 
+
 }
 #ph2:hover{
 	content:url('t2.png');
