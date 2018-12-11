@@ -1,0 +1,85 @@
+{
+    "clothing": [
+        {
+            "name": "trap",
+            "gender": "men",
+            "type": "tshirt",
+            "photos": "images/clothing/trap/tshirt.jpg",
+            "photos_b": null,
+            "price": 39.99,
+            "link": "https://vesoui.teetres.com/produkt/18924-6-trap"
+        },
+        {
+            "name": "trap",
+            "gender": "men",
+            "type": "sweatshirt",
+            "photos": "images/clothing/trap/sweatshirt1.jpg",
+            "photos_b": null,
+            "price": 99.99,
+            "link": "https://vesoui.teetres.com/produkt/18924-18-trap"
+        },
+        {
+            "name": "trap",
+            "gender": "men",
+            "type": "sweatshirt",
+            "photos": "images/clothing/trap/sweatshirt2.jpg",
+            "photos_b": null,
+            "price": 89.99,
+            "link": "https://vesoui.teetres.com/produkt/18924-16-trap"
+        },
+        {
+            "name": "trap",
+            "gender": "men",
+            "type": "tshirt",
+            "photos": "images/clothing/trap/tshirt2.jpg",
+            "photos_b": null,
+            "price": 59.99,
+            "link": "https://vesoui.teetres.com/produkt/18924-14-trap"
+        },
+        {
+            "name": "trap",
+            "gender": "women",
+            "type": "sweatshirt",
+            "photos": "images/clothing/trap/w_sweatshirt1.jpg",
+            "photos_b": null,
+            "price": 99.99,
+            "link": "https://vesoui.teetres.com/produkt/18924-19-trap"
+        },
+        {
+            "name": "tokyo",
+            "gender": "men",
+            "type": "tshirt",
+            "photos": "images/clothing/tokyo/tshirt1.jpg",
+            "photos_b": "images/clothing/tokyo/tshirt1_b.jpg",
+            "price": 54.99,
+            "link": "https://vesoui.teetres.com/produkt/18926-6-tokyo"
+        },
+        {
+            "name": "tokyo",
+            "gender": "men",
+            "type": "tshirt",
+            "photos": "images/clothing/tokyo/tshirt2.jpg",
+            "photos_b": "images/clothing/tokyo/tshirt2_b.jpg",
+            "price": 59.99,
+            "link": ""
+        },
+        {
+            "name": "tokyo",
+            "gender": "men",
+            "type": "tshirt",
+            "photos": "images/clothing/tokyo/tshirt2.jpg",
+            "photos_b": "images/clothing/tokyo/tshirt2_b.jpg",
+            "price": 59.99,
+            "link": "https://vesoui.teetres.com/produkt/18926-14-tokyo"
+        },
+        {
+            "name": "tokyo",
+            "gender": "men",
+            "type": "sweatshirt",
+            "photos": "images/clothing/tokyo/sweatshirt1.jpg",
+            "photos_b": "images/clothing/tokyo/sweatshirt1_b.jpg",
+            "price": 59.99,
+            "link": "https://vesoui.teetres.com/produkt/18926-18-tokyo"
+        }
+    ]
+}
