@@ -7,7 +7,8 @@
             "photos": "images/clothing/trap/tshirt.jpg",
             "photos_b": null,
             "price": 39.99,
-            "link": "https://vesoui.teetres.com/produkt/18924-6-trap"
+            "link": "https://vesoui.teetres.com/produkt/18924-6-trap",
+            "pattern": "images/clothing/trap/pattern.jpg"
         },
         {
             "name": "trap",
@@ -16,7 +17,8 @@
             "photos": "images/clothing/trap/sweatshirt1.jpg",
             "photos_b": null,
             "price": 99.99,
-            "link": "https://vesoui.teetres.com/produkt/18924-18-trap"
+            "link": "https://vesoui.teetres.com/produkt/18924-18-trap",
+            "pattern": "images/clothing/trap/pattern.jpg"
         },
         {
             "name": "trap",
@@ -25,7 +27,8 @@
             "photos": "images/clothing/trap/sweatshirt2.jpg",
             "photos_b": null,
             "price": 89.99,
-            "link": "https://vesoui.teetres.com/produkt/18924-16-trap"
+            "link": "https://vesoui.teetres.com/produkt/18924-16-trap",
+            "pattern": "images/clothing/trap/pattern.jpg"
         },
         {
             "name": "trap",
@@ -34,16 +37,18 @@
             "photos": "images/clothing/trap/tshirt2.jpg",
             "photos_b": null,
             "price": 59.99,
-            "link": "https://vesoui.teetres.com/produkt/18924-14-trap"
+            "link": "https://vesoui.teetres.com/produkt/18924-14-trap",
+            "pattern": "images/clothing/trap/pattern.jpg"
         },
         {
             "name": "trap",
-            "gender": "women",
+            "gender": "girl",
             "type": "sweatshirt",
             "photos": "images/clothing/trap/w_sweatshirt1.jpg",
             "photos_b": null,
             "price": 99.99,
-            "link": "https://vesoui.teetres.com/produkt/18924-19-trap"
+            "link": "https://vesoui.teetres.com/produkt/18924-19-trap",
+            "pattern": "images/clothing/trap/pattern.jpg"
         },
         {
             "name": "tokyo",

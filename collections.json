@@ -1,0 +1,16 @@
+{
+    "collections": [
+        {
+            "name": "trap",
+            "pattern": "images/clothing/trap/pattern.jpg"
+        },
+         {
+            "name": "everything/nothing",
+            "pattern": "images/clothing/everything_nothing/pattern.jpg"
+        },
+         {
+            "name": "tokyo",
+            "pattern": "images/clothing/tokyo/pattern.jpg"
+        }
+    ]
+}

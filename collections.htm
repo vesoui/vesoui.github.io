@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pl" ng-app="App">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>VESOUI</title>
+
+
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="main.css">
+<link rel="icon" href="images/favicon.png">
+<script src="js/angular.min.js"></script>
+<script src="app.js"></script>
+
+</head>
+
+<body ng-controller="CollectionsCtrl">
+    <div class="container">
+  <a href="/"><img class="logo" src="logo.png" /></a>
+
+
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <span class="visible-xs visible-sm ">
+                <ul class="nav navbar-nav">
+                        <li><a href="/">MĘŻCZYZNA</a></li>
+                        <li><a href="/">KOBIETA</a></li>
+                        <li><a href="/collections.htm">KOLEKCJE</a></li>
+                        <li><a href="#">INFO</a></li>
+                </ul>
+            </span>
+            <span class="visible-lg visible-md">
+                <ul class="nav navbar-nav navbar-center">
+                         <li><a href="/">MĘŻCZYZNA</a></li>
+                        <li><a href="/">KOBIETA</a></li>
+                         <li><a href="/collections.htm">KOLEKCJE</a></li>
+                        <li><a href="#">INFO</a></li>
+                </ul>
+            </span>
+        </div>
+      </div>
+    </nav>
+
+
+
+        
+  
+    <div class="row">
+        <div class="col-md-6 col-md-offset-1">
+    <table>
+    <tr ng-repeat="x in clothing" ng-if="$even">
+        <td>
+            <img ng-src="{{x.pattern}}"  class="img-responsive photo" />
+        </td>
+       
+    </tr>
+    </table>
+        </div>
+        <div class="col-md-4 ">
+    <table>
+    <tr ng-repeat="x in clothing" ng-if="$odd">
+      <td>
+            <img ng-src="{{x.pattern}}"  class="img-responsive photo" />
+        </td>
+    </tr>
+    </table>
+            </div>
+    </div>
+ 
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="js/bootstrap.min.js"></script>
+     
+</body>
+</html>

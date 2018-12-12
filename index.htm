@@ -20,7 +20,7 @@
 
 <body ng-controller="MainCtrl">
     <div class="container">
-  <img class="logo" src="logo.png" />
+  <a href="/"><img class="logo" src="logo.png" /></a>
 
 
     <nav class="navbar navbar-inverse navbar-static-top">
@@ -37,17 +37,17 @@
         <div id="navbar" class="navbar-collapse collapse">
             <span class="visible-xs visible-sm ">
                 <ul class="nav navbar-nav">
-                        <li><a href="#">MĘŻCZYZNA</a></li>
-                        <li><a href="#">KOBIETA</a></li>
-                        <li><a href="#">KOLEKCJE</a></li>
+                        <li><a ng-click="gender='men'">MĘŻCZYZNA</a></li>
+                        <li><a ng-click="gender='girl'">KOBIETA</a></li>
+                        <li><a href="/collections.htm">KOLEKCJE</a></li>
                         <li><a href="#">INFO</a></li>
                 </ul>
             </span>
             <span class="visible-lg visible-md">
                 <ul class="nav navbar-nav navbar-center">
-                        <li><a href="#">MĘŻCZYZNA</a></li>
-                        <li><a href="#">KOBIETA</a></li>
-                        <li><a href="#">KOLEKCJE</a></li>
+                         <li><a ng-click="gender='men'">MĘŻCZYZNA</a></li>
+                        <li><a ng-click="gender='girl'">KOBIETA</a></li>
+                        <li><a href="/collections.htm">KOLEKCJE</a></li>
                         <li><a href="#">INFO</a></li>
                 </ul>
             </span>
@@ -56,13 +56,42 @@
     </nav>
 
 
-<div class="row">
-  <div class="row">
-	<div class="col"><img class="img-responsive photo" id="ph1" /></div><div class="col"></div></div>
-	<div class="row "><div class="col"><img class="col img-responsive photo" id="ph2" ></div></div>
-	<div class="row"><div class="col"><img class="col img-responsive photo" id="ph3" /></div>
-</div>
-</div>
+
+        
+  
+    <div class="row">
+        <div class="col-md-6 col-md-offset-1">
+    <table>
+    <tr ng-repeat="x in clothing | filter:gender" ng-if="$even">
+        <td>
+            <div class="hvrbox">
+            <a ng-href={{x.link}}><img ng-src={{x.photos}} ng-mouseover="alert('xD')" class="img-responsive photo hvrbox-layer_bottom" ></img></a>
+            <div class="hvrbox-layer_top hvrbox-layer_slideup">
+		<div class="hvrbox-text">{{x.price}} PLN <br/><br/><br/> <a ng-href={{x.link}}><button class="button">WIĘCEJ</button></a> </div>
+	</div>
+        </div>
+        </td>
+       
+    </tr>
+    </table>
+        </div>
+        <div class="col-md-4 ">
+    <table>
+    <tr ng-repeat="x in clothing | filter:gender" ng-if="$odd">
+     <td>
+            <div class="hvrbox">
+            <a ng-href={{x.link}}><img ng-src={{x.photos}} class="img-responsive photo hvrbox-layer_bottom" ></img></a>
+            <div class="hvrbox-layer_top hvrbox-layer_slideup">
+		<div class="hvrbox-text">{{x.price}} PLN <br/><br/><br/> <a ng-href={{x.link}}><button class="button">WIĘCEJ</button></a> </div>
+	</div>
+        </div>
+        </td>
+    </tr>
+    </table>
+            </div>
+    </div>
+ 
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
    <!-- Include all compiled plugins (below), or include individual files as needed -->
