@@ -55,36 +55,110 @@
             "gender": "men",
             "type": "tshirt",
             "photos": "images/clothing/tokyo/tshirt1.jpg",
-            "photos_b": "images/clothing/tokyo/tshirt1_b.jpg",
+            "photos_b": null,
             "price": 54.99,
-            "link": "https://vesoui.teetres.com/produkt/18926-6-tokyo"
+            "link": "https://vesoui.teetres.com/produkt/18926-6-tokyo",
+            "pattern": "images/clothing/tokyo/pattern.jpg"
         },
         {
             "name": "tokyo",
             "gender": "men",
             "type": "tshirt",
             "photos": "images/clothing/tokyo/tshirt2.jpg",
-            "photos_b": "images/clothing/tokyo/tshirt2_b.jpg",
+            "photos_b": null,
             "price": 59.99,
-            "link": ""
-        },
-        {
-            "name": "tokyo",
-            "gender": "men",
-            "type": "tshirt",
-            "photos": "images/clothing/tokyo/tshirt2.jpg",
-            "photos_b": "images/clothing/tokyo/tshirt2_b.jpg",
-            "price": 59.99,
-            "link": "https://vesoui.teetres.com/produkt/18926-14-tokyo"
+            "link": "https://vesoui.teetres.com/produkt/18926-14-tokyo",
+            "pattern": "images/clothing/tokyo/pattern.jpg"
         },
         {
             "name": "tokyo",
             "gender": "men",
             "type": "sweatshirt",
             "photos": "images/clothing/tokyo/sweatshirt1.jpg",
-            "photos_b": "images/clothing/tokyo/sweatshirt1_b.jpg",
-            "price": 59.99,
-            "link": "https://vesoui.teetres.com/produkt/18926-18-tokyo"
+            "photos_b": null,
+            "price": 119.99,
+            "link": "https://vesoui.teetres.com/produkt/18926-18-tokyo",
+            "pattern": "images/clothing/tokyo/pattern.jpg"
+        },
+        {
+            "name": "tokyo",
+            "gender": "men",
+            "type": "sweatshirt",
+            "photos": "images/clothing/tokyo/sweatshirt2.jpg",
+            "photos_b": null,
+            "price": 105.99,
+            "link": "https://vesoui.teetres.com/produkt/18926-16-tokyo",
+            "pattern": "images/clothing/tokyo/pattern.jpg"
+        },
+        {
+            "name": "tokyo",
+            "gender": "girl",
+            "type": "sweatshirt",
+            "photos": "images/clothing/tokyo/w_sweatshirt1.jpg",
+            "photos_b": null,
+            "price": 119.99,
+            "link": "https://vesoui.teetres.com/produkt/18926-19-tokyo",
+            "pattern": "images/clothing/tokyo/pattern.jpg"
+        },
+        {
+            "name": "tokyo",
+            "gender": "girl",
+            "type": "sweatshirt",
+            "photos": "images/clothing/tokyo/w_sweatshirt2.jpg",
+            "photos_b": null,
+            "price": 105.99,
+            "link": "https://vesoui.teetres.com/produkt/18926-25-tokyo",
+            "pattern": "images/clothing/tokyo/pattern.jpg"
+        },
+        {
+            "name": "everything/nothing",
+            "gender": "men",
+            "type": "tshirt",
+            "photos": "images/clothing/everything_nothing/tshirt1.jpg",
+            "photos_b": null,
+            "price": 49.99,
+            "link": "https://vesoui.teetres.com/produkt/18919-6-everything-nothing",
+            "pattern": "images/clothing/everything_nothing/pattern.jpg"
+        },
+        {
+            "name": "everything/nothing",
+            "gender": "men",
+            "type": "sweatshirt",
+            "photos": "images/clothing/everything_nothing/sweatshirt1.jpg",
+            "photos_b": null,
+            "price": 109.99,
+            "link": "https://vesoui.teetres.com/produkt/18919-18-everything-nothing",
+            "pattern": "images/clothing/everything_nothing/pattern.jpg"
+        },
+        {
+            "name": "everything/nothing",
+            "gender": "men",
+            "type": "sweatshirt",
+            "photos": "images/clothing/everything_nothing/sweatshirt2.jpg",
+            "photos_b": null,
+            "price": 99.99,
+            "link": "https://vesoui.teetres.com/produkt/18919-16-everything-nothing",
+            "pattern": "images/clothing/everything_nothing/pattern.jpg"
+        },
+        {
+            "name": "everything/nothing",
+            "gender": "girl",
+            "type": "sweatshirt",
+            "photos": "images/clothing/everything_nothing/w_sweatshirt1.jpg",
+            "photos_b": null,
+            "price": 109.99,
+            "link": "https://vesoui.teetres.com/produkt/18919-19-everything-nothing",
+            "pattern": "images/clothing/everything_nothing/pattern.jpg"
+        },
+        {
+            "name": "everything/nothing",
+            "gender": "girl",
+            "type": "sweatshirt",
+            "photos": "images/clothing/everything_nothing/w_sweatshirt2.jpg",
+            "photos_b": null,
+            "price": 99.99,
+            "link": "https://vesoui.teetres.com/produkt/18919-25-everything-nothing",
+            "pattern": "images/clothing/everything_nothing/pattern.jpg"
         }
     ]
 }

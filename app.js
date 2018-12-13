@@ -4,6 +4,7 @@ App.controller('MainCtrl', function ($scope, $filter, $http) {
   
 $scope.gender = null;
  $http.get("clothing.json").then(function(response) {
+      console.log(response);
       $scope.clothing = response.data.clothing;
  });
     
