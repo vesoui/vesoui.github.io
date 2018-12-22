@@ -1,6 +1,56 @@
 {
     "clothing": [
         {
+            "name": "katovice",
+            "gender": "men",
+            "type": "tshirt",
+            "photos": "images/clothing/katovice/tshirt1.jpg",
+            "photos_b": null,
+            "price": 40.00,
+            "link": "https://vesoui.teetres.com/produkt/19177-6-katovice",
+            "pattern": "images/clothing/katovice/pattern.jpg"
+        },
+        {
+            "name": "katovice",
+            "gender": "men",
+            "type": "sweatshirt",
+            "photos": "images/clothing/katovice/sweatshirt1.jpg",
+            "photos_b": null,
+            "price": 90.00,
+            "link": "https://vesoui.teetres.com/produkt/19177-18-katovice",
+            "pattern": "images/clothing/katovice/pattern.jpg"
+        },
+        {
+            "name": "katovice",
+            "gender": "men",
+            "type": "sweatshirt",
+            "photos": "images/clothing/katovice/sweatshirt2.jpg",
+            "photos_b": null,
+            "price": 80.00,
+            "link": "https://vesoui.teetres.com/produkt/19177-16-katovice",
+            "pattern": "images/clothing/katovice/pattern.jpg"
+        },
+        {
+            "name": "katovice",
+            "gender": "girl",
+            "type": "sweatshirt",
+            "photos": "images/clothing/katovice/w_sweatshirt1.jpg",
+            "photos_b": null,
+            "price": 40.00,
+            "link": "https://vesoui.teetres.com/produkt/19177-7-katovice",
+            "pattern": "images/clothing/katovice/pattern.jpg"
+        },
+         {
+            "name": "katovice",
+            "gender": "girl",
+            "type": "sweatshirt",
+            "photos": "images/clothing/katovice/w_tshirt1.jpg",
+            "photos_b": null,
+            "price": 90.00,
+            "link": "https://vesoui.teetres.com/produkt/19177-19-katovice",
+            "pattern": "images/clothing/katovice/pattern.jpg"
+        },
+        {
             "name": "trap",
             "gender": "men",
             "type": "tshirt",

@@ -11,6 +11,10 @@
          {
             "name": "tokyo",
             "pattern": "images/clothing/tokyo/pattern.jpg"
+        },
+        {
+            "name": "katovice",
+            "pattern": "images/clothing/katovice/pattern.jpg"
         }
     ]
 }
